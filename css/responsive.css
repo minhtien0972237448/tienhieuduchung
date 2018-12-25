@@ -1,15 +1,14 @@
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
     .container {
         max-width: 1200px;
     }
 }
-@media (max-width: 1199px)
-{
-    .top2 ul li{
+
+@media (max-width: 1199px) {
+    .top2 ul li {
         display: inline-block;
     }
-    .top2 ul li a{
+    .top2 ul li a {
         display: block;
         text-decoration: none;
         font-size: 12px;
@@ -17,10 +16,26 @@
         font-weight: bold;
         line-height: 50px;
         margin-left: 9px;
+        margin-right: 9px;
+    }
+    .top2 ul li img {
         margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    #search input {
+        width: 230px;
+    }
+    #search img {
+        position: absolute;
+        right: 11px;
+        top: 8px;
+    }
+    .hotline {
+        left: 415px;
+    }
+    .cart {
+        left: 600px;
     }
 }
-@media (max-width: 991px)
-{
-    
-}
+
+@media (max-width: 991px) {}

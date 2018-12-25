@@ -1,30 +1,33 @@
-body{
+body {
     margin: 0px;
     box-sizing: border-box;
 }
-#header{
-    border: 1px blue solid;
-}
-#logo{
+
+#logo {
     margin-top: 12px;
     margin-left: 15px;
 }
-.top1{
+
+.top1 {
     height: 80px;
     background: #000000;
     position: relative;
 }
-.top2{
+
+.top2 {
     height: 50px;
     background: #fbdc30;
 }
-.top2 ul{
+
+.top2 ul {
     padding: 0px;
 }
-.top2 ul li{
+
+.top2 ul li {
     display: inline-block;
 }
-.top2 ul li a{
+
+.top2 ul li a {
     display: block;
     text-decoration: none;
     font-size: 12px;
@@ -34,33 +37,41 @@ body{
     margin-left: 20px;
     margin-right: 25px;
 }
-.top2 ul li a:hover{
+
+.top2 ul li a:hover {
     color: white;
 }
-.top2 ul li img{
+
+.top2 ul li img {
     margin-right: 9px;
     margin-bottom: 5px;
 }
-.active{
+
+.active {
     background: #efefef;
 }
-#search{
+
+#search {
     position: absolute;
     top: 22px;
     left: 150px;
 }
-#search input{
+
+#search input {
     width: 375px;
 }
-#search img{
+
+#search img {
     position: absolute;
     right: 11px;
     top: 8px;
 }
-#search img:hover{
+
+#search img:hover {
     cursor: pointer;
 }
-.hotline{
+
+.hotline {
     position: absolute;
     left: 600px;
     top: 8px;
@@ -68,5 +79,62 @@ body{
     border-radius: 5px;
     width: 150px;
     height: 40px;
-    font-size: 14px;
+    margin-top: 12px;
+}
+
+.hotline:hover {
+    cursor: pointer;
+}
+
+.hotline img {
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
+
+.cart {
+    position: absolute;
+    left: 825px;
+    top: 8px;
+    background: #fed700;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-top: 12px;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.cart img {
+    position: absolute;
+    left: 12px;
+    top: 7px;
+}
+
+.login {
+    position: absolute;
+    right: 80px;
+    top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.login:hover {
+    color: #ffffff;
+}
+
+.register {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fcd700;
+}
+
+.register:hover {
+    color: #fcd700;
 }
