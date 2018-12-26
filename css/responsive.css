@@ -7,14 +7,12 @@
 @media (max-width: 1199px) {
     .top2 ul li {
         display: inline-block;
+        margin-left: -2px;
+        margin-right: -2px;
     }
     .top2 ul li a {
-        margin-left: 9px;
-        margin-right: 9px;
-    }
-    .top2 ul li img {
-        margin-right: 5px;
-        margin-bottom: 5px;
+        margin-left: 12px;
+        margin-right: 12px;
     }
     #search input {
         width: 230px;
@@ -37,16 +35,26 @@
         display: block;
         max-width: 100%;
         border-bottom: solid 1px gray;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-left: none;
+        border-right: none;
     }
     .top2 ul li a {
-        display: block;
-        text-decoration: none;
-        font-size: 12px;
-        color: #000000;
-        font-weight: bold;
         line-height: 51px;
         margin-left: 20px;
         margin-right: 25px;
+    }
+    #slide_index .carousel-inner img {
         width: 100%;
+        height: auto;
+    }
+    #images_slide_index .image {
+        padding-right: 15px;
+        margin-bottom: 15px;
+    }
+    #images_slide_index img {
+        width: 100%;
+        height: auto;
     }
 }
