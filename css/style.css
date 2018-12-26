@@ -2,6 +2,7 @@ body {
     margin: 0px;
     box-sizing: border-box;
     background: #efefef;
+    font-family: "Myriad Pro";
 }
 
 #logo {
@@ -118,7 +119,7 @@ body {
 .login {
     position: absolute;
     right: 80px;
-    top: 25px;
+    top: 28px;
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
@@ -131,7 +132,7 @@ body {
 .register {
     position: absolute;
     right: 0px;
-    top: 25px;
+    top: 28px;
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
