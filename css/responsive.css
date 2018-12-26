@@ -32,4 +32,21 @@
     }
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    .top2 ul li {
+        display: block;
+        max-width: 100%;
+        border-bottom: solid 1px gray;
+    }
+    .top2 ul li a {
+        display: block;
+        text-decoration: none;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        line-height: 51px;
+        margin-left: 20px;
+        margin-right: 25px;
+        width: 100%;
+    }
+}
