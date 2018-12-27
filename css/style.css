@@ -5,6 +5,14 @@ body {
     font-family: "Myriad Pro";
 }
 
+h4 {
+    font-family: "Myriad Pro";
+}
+
+input {
+    font-family: "Myriad Pro";
+}
+
 #logo {
     margin-top: 12px;
     margin-left: 15px;
@@ -165,4 +173,157 @@ body {
 #images_slide_index img {
     width: 100%;
     height: 175px;
+}
+
+#banner {
+    margin-bottom: 15px;
+}
+
+#product_frame {
+    margin-bottom: 15px;
+}
+
+.category {
+    background: #ffffff;
+    margin-bottom: 4px;
+}
+
+.category a {
+    line-height: 56px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.category a:hover {
+    border-bottom: #fbdc30 4px solid;
+}
+
+.category ul {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.category ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.category ul li a {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.show_all {
+    position: absolute;
+    font-size: 16px;
+    right: -20px;
+}
+
+.promotion::after {
+    margin-left: 10px;
+    content: url('../images/icon-promotion.png')
+}
+
+.products {
+    background: #ffffff;
+    padding: 0px;
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    cursor: pointer;
+    color: #005afe;
+}
+
+.card_img {
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card_img:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card_text p {
+    margin-bottom: 0px;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+.discount {
+    font-weight: normal;
+    color: #676767;
+    text-decoration: line-through;
+}
+
+.sale {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, #ff9d01, #ea2c3f);
+    border-radius: 10px;
+    left: -16px;
+}
+
+.sale img {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: -3px;
+    top: -3px;
+}
+
+.sale p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.new_products {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, #02d5fe, #2788ea);
+    border-radius: 10px;
+    left: -16px;
+}
+
+.new_products img {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: -3px;
+    top: -3px;
+}
+
+.new_products p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 20px;
 }

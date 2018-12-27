@@ -28,6 +28,10 @@
     .cart {
         left: 600px;
     }
+    .card {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -56,5 +60,13 @@
     #images_slide_index img {
         width: 100%;
         height: auto;
+    }
+    .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card_text {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
