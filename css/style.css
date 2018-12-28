@@ -330,6 +330,7 @@ input {
 
 #ship_hotline_payment {
     background: #ffffff;
+    margin-bottom: 15px;
 }
 
 #ship_hotline_payment .item {
@@ -373,4 +374,55 @@ input {
     font-size: 18px;
     font-weight: bold;
     border-bottom: #fbdc30 4px solid;
+}
+
+#info {
+    background: #ffffff;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+#info div {
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+#info ul {
+    margin-top: 30px;
+}
+
+#info ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#info .title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: #fbdc30 1.5px solid;
+}
+
+#info .text {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#info a {
+    color: #000000;
+}
+
+#copyright {
+    background: #000000;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 25px 0px;
+    border-top: #fbdc30 1.5px solid;
+}
+
+#copyright p {
+    margin: 0px;
 }
