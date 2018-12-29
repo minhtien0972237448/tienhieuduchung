@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Index Bootstrap 3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/product_details.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <div style="background: #000000;">
+            <div class="container top1">
+                <a href=""><img id="logo" src="images/logo.png" alt="logo"></a>
+                <form id="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="search">
+                        <img src="images/icon-search.png" alt="">
+                    </div>
+                </form>
+                <div class="hotline">
+                    <img src="images/icon-phone.png" alt="">
+                    <p style="position: absolute; left: 51px; font-size: 14px;">Hotline CSKH</p>
+                    <p style="position: absolute; left: 52px; font-size: 16px; top: 16px; font-weight: bold;">1900.1234</p>
+                </div>
+                <div class="cart">
+                    <img src="images/icon-cart.png" alt="">
+                    <p style="position: absolute; right: 7px; font-size: 14px; border: solid black 1px; border-radius: 15px;">88</p>
+                    <p style="position: absolute; left: 52px; font-size: 16px; top: 9px; font-weight: bold;">Giỏ hàng</p>
+                </div>
+                <a class="login" href="" style="text-decoration: none;">ĐĂNG NHẬP</a>
+                <a class="register" href="" style="text-decoration: none;">ĐĂNG KÝ</a>
+                <button id="menu_bar" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+        <div style="background: #fbdc30;">
+            <div class="container top2">
+                <div id="myNavbar" class="row">
+                    <ul>
+                        <li class="active_header"><a href=""><img src="images/icon-home.png" alt=""> TRANG CHỦ</a></li>
+                        <li><a href=""><img src="images/icon-khuyen-mai.png" alt=""> KHUYẾN MÃI</a></li>
+                        <li><a href=""><img src="images/icon-san-pham-sua.png" alt=""> SẢN PHẨM SỬA</a></li>
+                        <li><a href=""><img src="images/icon-rau-sach.png" alt=""> RAU SẠCH</a></li>
+                        <li><a href=""><img src="images/icon-do-uong.png" alt=""> ĐỒ UỐNG</a></li>
+                        <li><a href=""><img src="images/icon-thuc-pham-chuc-nang.png" alt=""> THỰC PHẨM CHỨC NĂNG</a></li>
+                        <li><a href=""><img src="images/icon-du-lich-sinh-thai.png" alt=""> DU LỊCH SINH THÁI</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content_product_details" class="container">
+        <div class="card_details">
+            <div class="container-fliud">
+                <div class="wrapper row">
+                    <div class="preview col-md-3">
+                        <div class="preview-pic tab-content">
+                            <div class="tab-pane active" id="pic-1"><img src="images/sua-tuoi-thanh-trung.jpg" /></div>
+                            <div class="tab-pane" id="pic-2"><img src="images/sua-tuoi-tiet-trung.jpg" /></div>
+                            <div class="tab-pane" id="pic-3"><img src="images/sua-tuoi-cong-thuc.jpg" /></div>
+                            <div class="tab-pane" id="pic-4"><img src="images/sua-hat.jpg" /></div>
+                        </div>
+                        <ul class="preview-thumbnail nav nav-tabs">
+                            <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/sua-tuoi-thanh-trung.jpg" /></a></li>
+                            <li><a data-target="#pic-2" data-toggle="tab"><img src="images/sua-tuoi-tiet-trung.jpg" /></a></li>
+                            <li><a data-target="#pic-3" data-toggle="tab"><img src="images/sua-tuoi-cong-thuc.jpg" /></a></li>
+                            <li><a data-target="#pic-4" data-toggle="tab"><img src="images/sua-hat.jpg" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="details col-md-9">
+                        <div class="product-title">
+                            <h3>Sữa hạt hạnh nhân TH true NUT 180ml (Lốc 4 hộp)</h3>
+                            <h3>hoàn toàn tự nhiên</h3>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span style="margin-left: 10px; color: #fba502;">5 trên 5 đánh giá</span>
+                                <span style="margin-left: 10px; color: #797979;">(500 đánh giá)</span>
+                            </div>
+                        </div>
+                        <h4 class="price_product_details">50.000 đ<span>60.000 đ</span></h4>
+                        <p class="shipper">Giao hàng bời O2TV</p>
+                        <p class="time_ship">Thời gian giao hàng từ 1 đến 2 ngày làm việc</p>
+                        <p class="note_ship">Miễn phí giao hàng khi có đơn hàng từ 500.000 đ trở lên</p>
+
+                        <h5 class="sizes">Phân loại hàng:
+                            <span class="size active_size" title="small">250 ml</span>
+                            <span class="size" title="medium">1 lít</span>
+                            <span class="size" title="large">Lốc 250 ml</span>
+                            <span class="size" title="xtra large">Thùng 1 lít</span>
+                        </h5>
+                        <h5 class="quantity">Số lượng:
+                            <span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
+                            <span class="color green"></span>
+                            <span class="color blue"></span>
+                        </h5>
+                        <div class="action">
+                            <button class="add-to-cart btn btn-default" type="button">add to cart</button>
+                            <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div id="ship_hotline_payment" class="row">
+                <div class="item col-lg-3 col-lg-offset-2 col-md-4 col-md-offset-1">
+                    <img src="images/icon-ship.png" alt="">
+                    <p class="content">Giao hàng trên Toàn Quốc</p>
+                    <p class="note">Giao hàng trên Toàn Quốc</p>
+                </div>
+                <div class="item col-lg-3 col-md-3 col-md-4">
+                    <img src="images/icon-hotline.png" alt="">
+                    <p class="content">Hotline: 0901234567</p>
+                    <p class="note">Hỗ trợ tư vấn 24/7</p>
+                </div>
+                <div class="item col-lg-3 col-md-3 col-md-4">
+                    <img src="images/icon-payment.png" alt="">
+                    <p class="content">Thanh toán dễ dàng</p>
+                    <p class="note">Thanh toán khi nhận hàng</p>
+                </div>
+            </div>
+            <div id="info" class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <p class="title">Website cùng hệ thống</p>
+                    <p class="text"><a href="">O2TV: www.o2tv.vn</a></p>
+                    <p class="text"><a href="">TMĐT: www.tmdt.o2tv.vn</a></p>
+                    <ul>
+                        <li><a href=""><img src="images/icon-facebook.png" alt=""></a></li>
+                        <li><a href=""><img src="images/icon-youtube.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="title">Giới thiệu</p>
+                    <p class="text"><a href="">Về O2TV</a></p>
+                    <p class="text"><a href="">Khuyến mãi</a></p>
+                    <p class="text"><a href="">Liên hệ</a></p>
+                    <p class="text"><a href="">Cam kết sản phẩm chính hãng</a></p>
+                </div>
+                <div class="col-md-3">
+                    <p class="title">Hướng dẫn, hỗ trợ</p>
+                    <p class="text"><a href="">Hướng dẫn mua hàng</a></p>
+                    <p class="text"><a href="">Vận chuyển - giao hàng</a></p>
+                    <p class="text"><a href="">Phương thức thanh toán</a></p>
+                    <p class="text"><a href="">Chính sách hỗ trợ</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>Bản quyền 2018 thuộc về tmdt.o2tv.vn</p>
+            <p>Cơ quan chủ quản: Công ty Cổ phần truyền thông S Media</p>
+            <p>Địa chỉ: Tầng 11, Tòa nhà Bắc Ắ Bank số 9 Đào Duy Anh, Hà Nội</p>
+            <p>Giấy phép MXH số 317/GP-BTTT cấp ngày 04/07/2017</p>
+            <p>Điện thoại/Fax: +848 3841.3617</p>
+            <p>Người chịu trách nhiệm nội dung: O2TV</p>
+        </div>
+    </footer>
+</body>
+
+</html>
