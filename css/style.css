@@ -9,7 +9,15 @@ h4 {
     font-family: "Myriad Pro";
 }
 
+h5 {
+    font-family: "Myriad Pro";
+}
+
 input {
+    font-family: "Myriad Pro";
+}
+
+button {
     font-family: "Myriad Pro";
 }
 
@@ -429,4 +437,29 @@ input {
 
 #copyright p {
     margin: 0px;
+}
+
+#sort {
+    margin-bottom: 15px;
+}
+
+.link {
+    background: #ffffff;
+    margin-bottom: 4px;
+    line-height: 56px;
+    font-size: 14px;
+}
+
+.link a {
+    color: #797979;
+    text-decoration: none;
+}
+
+.link a:hover {
+    border-bottom: #fbdc30 1.2px solid;
+}
+
+.link img {
+    margin-bottom: 3px;
+    margin-right: 5px;
 }

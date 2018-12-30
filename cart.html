@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>cart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        ul{
+            padding: 0;
+        }
+        ul li{
+            display: inline-block;
+            margin-left: 0px;
+            margin-right: -4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li>
+                <button type="button" class="quantity-minus btn btn-danger">
+                    <span class="glyphicon glyphicon-minus"></span>
+                </button>
+            </li>
+            <li>
+                <input type="text" style="text-align:center; width: 100px;" id="quantity" value="5">
+            </li>
+            <li>
+                <button type="button" class="quantity-plus btn btn-success">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var q = 0;
+        $('.quantity-plus').click(function () {
+            var q = parseInt($('#quantity').val());
+            $('#quantity').val(q + 1);
+        });
+
+        $('.quantity-minus').click(function () {
+            var q = parseInt($('#quantity').val());
+            if (q > 0) {
+                $('#quantity').val(q - 1);
+            }
+        });
+    </script>
+</body>
+
+</html>
