@@ -439,15 +439,17 @@ button {
     margin: 0px;
 }
 
-#sort {
+#link_frame {
     margin-bottom: 15px;
 }
 
 .link {
     background: #ffffff;
-    margin-bottom: 4px;
-    line-height: 56px;
+    line-height: 35px;
     font-size: 14px;
+    color: #797979;
+    padding-top: 5px;
+    position: relative;
 }
 
 .link a {
@@ -462,4 +464,29 @@ button {
 .link img {
     margin-bottom: 3px;
     margin-right: 5px;
+}
+
+.btn_sort {
+    font-size: 14px;
+    background: transparent;
+    border: none;
+}
+
+.link .btn-group {
+    position: absolute;
+    top: 4px;
+    right: 0px;
+    color: #000000;
+}
+
+.btn_sort span {
+    margin-left: 73px;
+}
+
+.dropdown-menu {
+    background: #fed700;
+}
+
+.dropdown-menu a:hover {
+    border: none;
 }

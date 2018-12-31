@@ -291,31 +291,35 @@ img {
     }
 }
 
-#description_product_details {
+#description_product {
     background: #ffffff;
     margin-bottom: 15px;
 }
 
-.title_description_product_details {
+.title_description_product {
     font-size: 18px;
     color: black;
     font-weight: bold;
     line-height: 60px;
 }
 
-.content_description_product_details {
+.title_description_product span {
+    font-weight: normal;
+}
+
+.content_description_product {
     font-size: 14px;
     color: black;
 }
 
-#description_product_details ul {
+#description_product ul {
     padding: 0;
     margin: 20px 0;
     font-size: 18px;
     color: #000000;
 }
 
-#description_product_details ul li {
+#description_product ul li {
     display: inline-block;
     margin: 5px 10px;
 }
