@@ -21,6 +21,14 @@ button {
     font-family: "Myriad Pro";
 }
 
+select {
+    font-family: "Myriad Pro";
+}
+
+option {
+    font-family: "Myriad Pro";
+}
+
 #header {
     margin-bottom: 15px;
 }
@@ -489,4 +497,177 @@ button {
 
 .dropdown-menu a:hover {
     border: none;
+}
+
+#cart_frame {
+    background: #ffffff;
+    margin-bottom: 15px;
+}
+
+.cart_title {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.item_cart {
+    margin-bottom: 30px;
+}
+
+.item_cart .img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.content_item_cart {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.content_item_cart p {
+    margin: 0px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content_item_cart input {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    border: solid 1px #676767;
+    height: 30px;
+}
+
+.content_item_cart ul {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.content_item_cart ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.content_item_cart ul li:first-of-type {
+    margin-right: 75px;
+}
+
+.content_item_cart ul li button {
+    background: transparent;
+    border: solid 1px #676767;
+    border-radius: 5px;
+}
+
+.content_item_cart ul li button img {
+    margin-bottom: 2.5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content_item_cart select {
+    height: 30px;
+    width: 150px;
+    border: 1px solid #797979;
+    font-size: 14px;
+}
+
+.content_item_cart select option {
+    background: #fbdc30;
+}
+
+.cart_price {
+    font-weight: bold;
+    color: red;
+    font-size: 24.1px;
+    text-align: right;
+}
+
+.cart_discount {
+    font-size: 18.08px;
+    font-weight: normal;
+    color: #676767;
+    text-decoration: line-through;
+    text-align: right;
+}
+
+.payment {
+    margin-bottom: 15px;
+}
+
+.payment p {
+    position: relative;
+}
+
+.payment span {
+    position: absolute;
+    right: 0;
+}
+
+.payment_title {
+    font-size: 18px;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.amount {
+    color: red;
+}
+
+.use_discount_code {
+    color: #005afe;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.txt_discount_code {
+    width: 215px;
+    height: 40px;
+    border: 1px solid #676767;
+}
+
+.payment form {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.payment .apply {
+    border: none;
+    border-radius: 5px;
+    background: #fcd700;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 120px;
+    height: 40px;
+    color: #000000;
+}
+
+.payment .proceed_to_payment {
+    border: none;
+    border-radius: 5px;
+    background: #fcd700;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    height: 40px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
 }

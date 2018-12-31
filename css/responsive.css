@@ -105,6 +105,21 @@
         right: 0px;
         display: block;
     }
+    .item_cart .img {
+        width: 100%;
+    }
+    .cart_price {
+        text-align: left;
+    }
+    .cart_discount {
+        text-align: left;
+    }
+    .content_item_cart {
+        padding: 0 15px;
+    }
+    .content_item_cart ul li:first-of-type {
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 768px) {

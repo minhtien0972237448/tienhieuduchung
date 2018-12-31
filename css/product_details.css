@@ -150,9 +150,10 @@ img {
 }
 
 .quantity input {
+    text-align: center;
     font-size: 18px;
     color: black;
-    border: solid 1.2px #676767;
+    border: solid 1px #676767;
     height: 30px;
 }
 
