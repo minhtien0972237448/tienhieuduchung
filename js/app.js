@@ -19,4 +19,24 @@ $(document).ready(function () {
             }
         }
     });
+
+
+    var q = 0;
+    $('.quantity-plus').click(function () {
+        var q = parseInt($('#quantity').val());
+        $('#quantity').val(q + 1);
+    });
+
+    $('.quantity-minus').click(function () {
+        var q = parseInt($('#quantity').val());
+        if (q > 0) {
+            $('#quantity').val(q - 1);
+        }
+    });
+
+
+    $('[data-toggle="popover"]').popover();
+    $('.add-to-cart').click(function () {
+
+    });
 });

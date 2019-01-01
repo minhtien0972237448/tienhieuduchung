@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Index Bootstrap 3</title>
+    <title>Chi tiết sản phẩm Bootstrap 3</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -37,7 +37,8 @@
                     <p style="position: absolute; left: 51px; font-size: 14px;">Hotline CSKH</p>
                     <p style="position: absolute; left: 52px; font-size: 16px; top: 16px; font-weight: bold;">1900.1234</p>
                 </div>
-                <div class="cart">
+                <div class="cart" title="Thêm giỏ hàng thành công" data-content="Xem giỏ hàng và thanh toán"
+                    data-toggle="popover" data-placement="bottom">
                     <img src="images/icon-cart.png" alt="">
                     <p style="position: absolute; right: 7px; font-size: 14px; border: solid black 1px; border-radius: 15px;">88</p>
                     <p style="position: absolute; left: 52px; font-size: 16px; top: 9px; font-weight: bold;">Giỏ hàng</p>
@@ -68,20 +69,33 @@
         </div>
     </header>
 
+    <div id="link_frame" class="container">
+        <div class="row">
+            <div class="link col-md-12">
+                <a href=""><img src="images/icon-link-home.png" alt="">TRANG CHỦ</a> <img class="icon_link_right" src="images/icon-link-right.png"
+                    alt=""> <a href="">SẢN PHẨM SỮA</a> <img class="icon_link_right" src="images/icon-link-right.png"
+                    alt=""> <a href="" style="color: black;">Sữa hạt hạnh nhân TH true NUT 180ml (Lốc 4 hộp) - hoàn
+                    toàn tự nhiên</a>
+            </div>
+        </div>
+    </div>
+
     <div id="content_product_details" class="container">
         <div class="wrapper row">
             <div class="preview col-md-3">
                 <div class="preview-pic tab-content">
-                    <div class="tab-pane active" id="pic-1"><img src="images/th-true-milk.jpg" /></div>
-                    <div class="tab-pane" id="pic-2"><img src="images/sua-tuoi-tiet-trung.jpg" /></div>
-                    <div class="tab-pane" id="pic-3"><img src="images/sua-tuoi-cong-thuc.jpg" /></div>
-                    <div class="tab-pane" id="pic-4"><img src="images/sua-hat.jpg" /></div>
+                    <div class="tab-pane active" id="pic-1"><img src="images/th-true-milk.jpg" width="100%" /></div>
+                    <div class="tab-pane" id="pic-2"><img src="images/sua-tuoi-tiet-trung.jpg" width="100%" /></div>
+                    <div class="tab-pane" id="pic-3"><img src="images/sua-tuoi-cong-thuc.jpg" width="100%" /></div>
+                    <div class="tab-pane" id="pic-4"><img src="images/sua-hat.jpg" width="100%" /></div>
                 </div>
                 <ul class="preview-thumbnail nav nav-tabs">
-                    <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/th-true-milk.jpg" /></a></li>
-                    <li><a data-target="#pic-2" data-toggle="tab"><img src="images/sua-tuoi-tiet-trung.jpg" /></a></li>
-                    <li><a data-target="#pic-3" data-toggle="tab"><img src="images/sua-tuoi-cong-thuc.jpg" /></a></li>
-                    <li><a data-target="#pic-4" data-toggle="tab"><img src="images/sua-hat.jpg" /></a></li>
+                    <li class="active"><a data-target="#pic-1" data-toggle="tab">
+                            <img src="images/th-true-milk.jpg" width="100%" /></a>
+                    </li>
+                    <li><a data-target="#pic-2" data-toggle="tab"><img src="images/sua-tuoi-tiet-trung.jpg" width="100%" /></a></li>
+                    <li><a data-target="#pic-3" data-toggle="tab"><img src="images/sua-tuoi-cong-thuc.jpg" width="100%" /></a></li>
+                    <li><a data-target="#pic-4" data-toggle="tab"><img src="images/sua-hat.jpg" width="100%" /></a></li>
                 </ul>
             </div>
             <div class="details col-md-9">
@@ -319,20 +333,6 @@
 
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
-    <script>
-        var q = 0;
-        $('.quantity-plus').click(function () {
-            var q = parseInt($('#quantity').val());
-            $('#quantity').val(q + 1);
-        });
-
-        $('.quantity-minus').click(function () {
-            var q = parseInt($('#quantity').val());
-            if (q > 0) {
-                $('#quantity').val(q - 1);
-            }
-        });
-    </script>
 </body>
 
 </html>

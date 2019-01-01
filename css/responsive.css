@@ -105,6 +105,9 @@
         right: 0px;
         display: block;
     }
+    .item_cart {
+        padding-right: 0px;
+    }
     .item_cart .img {
         width: 100%;
     }
@@ -119,6 +122,26 @@
     }
     .content_item_cart ul li:first-of-type {
         margin-right: 20px;
+    }
+    .group_promotion_1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .group_promotion_2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .img_group {
+        height: auto;
+    }
+    .group_content {
+        padding: 0;
+    }
+    .news_content {
+        padding: 0 15px;
+    }
+    .payment {
+        padding-left: 15px;
     }
 }
 
@@ -146,5 +169,8 @@
         bottom: 12px;
         right: 0px;
         display: block;
+    }
+    .name_phone input {
+        width: 130px;
     }
 }
