@@ -193,7 +193,8 @@
                             <span style="position: relative;">Quý khách sẽ được chuyển tới Onepay để thanh toán.</span>
                         </div>
                     </div>
-                    <button class="select_payment_method">Chọn hình thức thanh toán
+                    <button type="button" class="select_payment_method" data-toggle="modal" data-target="#myModal">Chọn
+                        hình thức thanh toán
                         <img src="images/icon-proceed-to-payment.png" alt=""></button>
                 </div>
             </form>
@@ -254,6 +255,26 @@
             <p>Người chịu trách nhiệm nội dung: O2TV</p>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content col-xs-12">
+                <div class="col-xs-12">
+                    <img src="images/logo.png" alt="">
+                    <p style="font-size: 18px; font-weight: bold; text-align: center; margin-top: 90px;">Đặt hàng thành
+                        công</p>
+                    <p>Cảm ơn bạn đã đặt hàng tại O2TV</p>
+                    <p>Mã số đơn hàng của bạn: <a href="" style="font-size: 18px;">O2TV111111</a></p>
+                    <p style="margin-bottom: 100px;">Để theo dõi tình trang đơn hàng quý khách vui lòng vào <a href="">Quản
+                            lý đơn hàng</a></p>
+                    <button data-dismiss="modal">Tiếp tục mua hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

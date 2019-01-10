@@ -485,29 +485,20 @@ option {
     margin-left: 5px;
 }
 
-.btn_sort {
-    font-size: 14px;
-    background: transparent;
-    border: none;
-}
-
-.link .btn-group {
+.link .select_sort {
     position: absolute;
-    top: 4px;
+    top: 8px;
     right: 0px;
     color: #000000;
-}
-
-.btn_sort span {
-    margin-left: 73px;
-}
-
-.dropdown-menu {
-    background: #fed700;
-}
-
-.dropdown-menu a:hover {
     border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px 0;
+}
+
+.link .select_sort option {
+    background: #fed700;
+    padding: 5px 0;
 }
 
 #cart_frame {
@@ -869,4 +860,30 @@ option {
 
 .info_cart {
     margin-bottom: 30px;
+}
+
+.modal-content {
+    position: relative;
+    background: #efefef;
+}
+
+.modal-content img {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.modal-content button {
+    position: absolute;
+    background: #fed700;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -0%);
 }
