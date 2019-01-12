@@ -20,23 +20,25 @@ $(document).ready(function () {
         }
     });
 
-
     var q = 0;
     $('.quantity-plus').click(function () {
-        var q = parseInt($('#quantity').val());
-        $('#quantity').val(q + 1);
+        var parent = $(this).parent();
+        var child = parent.children('.quantity');
+        var q = parseInt(child.val());
+        child.val(q + 1);
     });
 
     $('.quantity-minus').click(function () {
-        var q = parseInt($('#quantity').val());
+        var parent = $(this).parent();
+        var child = parent.children('.quantity');
+        var q = parseInt(child.val());
         if (q > 0) {
-            $('#quantity').val(q - 1);
+            child.val(q - 1);
         }
     });
 
-
-    $('[data-toggle="popover"]').popover();
-    $('.add-to-cart').click(function () {
-
+    $('#menu_bar').click(function () {
+        $('#myNavbar').toggle();
     });
+
 });

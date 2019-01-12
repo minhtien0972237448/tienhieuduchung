@@ -5,6 +5,9 @@
 }
 
 @media (max-width: 1200px) {
+    #myNavbar {
+        display: block;
+    }
     .top2 ul li {
         display: inline-block;
         margin-left: -2px;
@@ -17,7 +20,7 @@
     #search input {
         width: 230px;
     }
-    #search img {
+    #search button {
         position: absolute;
         right: 11px;
         top: 8px;
@@ -35,6 +38,9 @@
 }
 
 @media (max-width: 992px) {
+    #myNavbar {
+        display: none;
+    }
     .top2 ul li {
         display: block;
         max-width: 100%;
@@ -147,26 +153,30 @@
 
 @media (max-width: 768px) {
     .hotline {
-        top: 70px;
-        left: 25px;
+        display: none;
     }
     .cart {
         top: 70px;
-        left: 205px;
+        right: 15px;
+        left: auto;
     }
     .login {
-        right: 80px;
+        right: 150px;
         top: 28px;
     }
     .register {
-        right: 0px;
+        right: 70px;
         top: 28px;
     }
+    #search {
+        top: 81px;
+        left: 15px;
+    }
     #search input {
-        width: 230px;
+        width: 200px;
     }
     #menu_bar {
-        bottom: 12px;
+        bottom: 75px;
         right: 0px;
         display: block;
     }

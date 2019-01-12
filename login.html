@@ -2,17 +2,23 @@
 <html lang="en">
 
 <head>
-    <title>Tin khuyến mãi Bootstrap 3</title>
+    <title>Đăng nhập Bootstrap 3</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/product_details.css">
+
 </head>
 
 <body>
@@ -31,7 +37,8 @@
                     <p style="position: absolute; left: 51px; font-size: 14px;">Hotline CSKH</p>
                     <p style="position: absolute; left: 52px; font-size: 16px; top: 16px; font-weight: bold;">1900.1234</p>
                 </div>
-                <div class="cart">
+                <div class="cart" title="Thêm giỏ hàng thành công" data-content="Xem giỏ hàng và thanh toán"
+                    data-toggle="popover" data-placement="bottom">
                     <img src="images/icon-cart.png" alt="">
                     <p style="position: absolute; right: 7px; font-size: 14px; border: solid black 1px; border-radius: 15px;">88</p>
                     <p style="position: absolute; left: 52px; font-size: 16px; top: 9px; font-weight: bold;">Giỏ hàng</p>
@@ -62,75 +69,42 @@
         </div>
     </header>
 
-    <div id="cart_frame" class="container">
+    <div id="content" class="container" style="background: #ffffff; margin-bottom: 15px;">
         <div class="row">
-            <form action="" method="POST">
-                <div class="info_cart col-md-8">
-                    <p class="cart_title">Phương thức thanh toán</p>
-                    <div class="payment_method col-md-12">
-                        <div class="icon col-md-2">
-                            <input type="radio" name="payment_method" checked>
-                            <img src="images/icon-thanh-toan-khi-nhan-hang.png" alt="">
-                        </div>
-                        <div class="col-md-10">
-                            <p>Thanh toán khi nhận hàng</p>
-                            <span>Quý khách sẽ thanh toán bằng tiền mặt hoặc thẻ khi O2TV giao hàng cho quý khách.</span>
-                        </div>
+            <div class="form_login col-md-6 col-md-offset-3">
+                <img src="images/logo.png" alt="">
+                <p class="title">Đăng nhập</p>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <form>
+                            <div class="input-group">
+                                <span class="input-group-addon">ID</span>
+                                <input id="email" type="text" class="form-control" name="email" placeholder="Tài khoản">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                <input id="password" type="password" class="form-control" name="password" placeholder="Mật khẩu">
+                            </div>
+                            <div class="input-group" style="width: 100%;">
+                                <button class="btn btn_login">ĐĂNG NHẬP</button>
+                            </div>
+                        </form>
+                        <p style="margin-top: 10px;">
+                            <a href="">Đăng ký</a>
+                            <a href="" style="position: absolute; right: 15px;">Quên mật khẩu</a>
+                        </p>
                     </div>
-                    <div class="payment_method col-md-12">
-                        <div class="icon col-md-2">
-                            <input type="radio" name="payment_method">
-                            <img src="images/icon-thanh-toan-ngan-luong.png" alt="">
+                    <div class="col-xs-6">
+                        <p style="color: #616161; text-align: center; line-height: 52px;">Hoặc đăng nhập bằng</p>
+                        <div class="input-group" style="width: 100%;">
+                            <button class="btn btn_facebook">Facebook</button>
                         </div>
-                        <div class="col-md-10">
-                            <p>Thanh toán qua cổng thanh toán ngân lượng</p>
-                            <span>Quý khách sẽ được chuyển tới Nganluong.vn để thanh toán.</span>
-                        </div>
-                    </div>
-                    <div class="payment_method col-md-12">
-                        <div class="icon col-md-2">
-                            <input type="radio" name="payment_method">
-                            <img src="images/icon-thanh-toan-bao-kim.png" alt="">
-                        </div>
-                        <div class="col-md-10">
-                            <p>Thanh toán qua cổng thanh toán Bảo Kim</p>
-                            <span>Quý khách sẽ được chuyển tới Baokim.vn để thanh toán.</span>
-                        </div>
-                    </div>
-                    <div class="payment_method col-md-12">
-                        <div class="icon col-md-2">
-                            <input type="radio" name="payment_method">
-                            <img src="images/icon-thanh-toan-atm.png" alt="">
-                        </div>
-                        <div class="col-md-10">
-                            <p>Thanh toán bằng thẻ ATM</p>
-                            <span>Quý khách sẽ được chuyển tới Napas để thanh toán.</span>
-                        </div>
-                    </div>
-                    <div class="payment_method col-md-12">
-                        <div class="icon col-md-2">
-                            <input type="radio" name="payment_method">
-                            <img src="images/icon-thanh-toan-quoc-te.png" alt="">
-                        </div>
-                        <div class="col-md-10">
-                            <p>Thanh toán bằng thẻ thanh toán quốc tế</p>
-                            <span>Quý khách sẽ được chuyển tới Onepay để thanh toán.</span>
+                        <div class="input-group" style="width: 100%;">
+                            <button class="btn btn_google">Google</button>
                         </div>
                     </div>
                 </div>
-                <div class="payment col-md-4" style="padding-bottom: 80px;">
-                    <p class="payment_title">Giỏ hàng của bạn</p>
-                    <p>Thanh tiền: <span>2.500.000 đ</span></p>
-                    <p>Giảm: <span>- 500.000 đ</span></p>
-                    <p>Phí vận chuyển: <span>- 35.000 đ</span></p>
-                    <p class="total" style="margin-top: 50px; margin-bottom: 30px;">Cần thanh toán: <span class="amount">1.965.000
-                            đ</span></p>
-                    <input type="checkbox" style="margin-bottom: 20px;">
-                    <span style="position: relative;">Tôi đồng ý với <a href="">điều khoản & điều kiện</a>
-                        giao dịch của O2TV</span>
-                    <button class="select_payment_method">Thanh toán</button>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 
@@ -188,6 +162,9 @@
             <p>Người chịu trách nhiệm nội dung: O2TV</p>
         </div>
     </footer>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
