@@ -182,6 +182,20 @@ option {
     margin-bottom: 5px;
 }
 
+.register ul {
+    background: #b7b7b7;
+    padding: 0;
+    margin: 0;
+}
+
+.register ul li a {
+    line-height: 40px;
+}
+
+.register ul li a:hover {
+    background: #efefef;
+}
+
 #slide_index .carousel-inner img {
     width: 100%;
     height: 366px;
