@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Thông tin tài khoản Bootstrap 3</title>
+    <title>Đăng ký Bootstrap 3</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -70,63 +70,42 @@
     </header>
 
     <div id="content" class="container" style="background: #ffffff; margin-bottom: 15px;">
-        <div class="box_account_info row">
-            <div class="col-md-3">
-                <p class="title">Thông tin tài khoản</p>
-                <p>Tên đăng nhập: <span>Admin</span></p>
-                <p>Mật khẩu: <span>******</span></p>
-                <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Thay đổi mật khẩu</button>
-                <p>Họ tên: <span>NGUYEN VIET VU</span></p>
-                <p>Ngày sinh: <span>15/08/1997</span></p>
-                <p>Giới tính: <span>NAM</span></p>
-                <p>Số điện thoại: <span>0982308158</span></p>
-                <p>Email: </p>
-                <p style="font-weight: bold;">nguyenvietvu158@gmail.com</p>
-                <p>Địa chỉ: </p>
-                <p style="font-weight: bold;">Đông Quang, Đông Sơn, Thanh Hóa</p>
-            </div>
-            <div class="col-md-3">
-                <p class="title">Tổng điểm bạn có</p>
-                <p>Tổng điểm</p>
-                <p style="color: red; font-weight: bold; font-size: 30px;">145 điểm</p>
-            </div>
-            <div class="col-md-3">
-                <p class="title">Mã giảm giá / Voucher của tôi</p>
-                <p>Rất tiếc, quý khách chưa có mã giảm giá / voucher nào. Mã sẽ tự động được thêm vào tài khoản khi có
-                    chương trình khuyễn mãi từ O2TV</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content col-xs-12">
-                <div class="col-xs-12">
-                    <img src="images/logo.png" alt="">
-                    <p style="font-size: 18px; font-weight: bold; text-align: center; margin-top: 90px;">Thay đổi mật
-                        khẩu</p>
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <form>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                                <input id="email" type="text" class="form-control" name="email" placeholder="Mật khẩu cũ">
-                            </div>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                <input id="password" type="password" class="form-control" name="password" placeholder="Mật khẩu mới">
-                            </div>
-                            <div class="input-group" style="margin-bottom: 100px;">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                <input id="password" type="password" class="form-control" name="re_password" placeholder="Nhập lại khẩu mới">
+        <div class="row">
+            <div class="form_login col-md-6 col-md-offset-3">
+                <img src="images/logo.png" alt="">
+                <p class="title">Đăng ký</p>
+                <form>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="input-group" style="width: 100%;">
+                                <input type="text" class="form-control" name="last_name" placeholder="Nhập họ" style="border-radius: 5px;">
                             </div>
                             <div class="input-group" style="width: 100%;">
-                                <button>XÁC NHẬN</button>
+                                <input type="email" class="form-control" name="email" placeholder="Nhập email" style="border-radius: 5px;">
                             </div>
-                        </form>
+                            <div class="input-group" style="width: 100%;">
+                                <input type="email" class="form-control" name="email" placeholder="Mật khẩu (6 ký tự trở lên)"
+                                    style="border-radius: 5px;">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="input-group" style="width: 100%;">
+                                <input type="text" class="form-control" name="last_name" placeholder="Nhập tên" style="border-radius: 5px;">
+                            </div>
+                            <div class="input-group" style="width: 100%;">
+                                <input type="email" class="form-control" name="email" placeholder="Nhập số điện thoại"
+                                    style="border-radius: 5px;">
+                            </div>
+                            <div class="input-group" style="width: 100%;">
+                                <input type="email" class="form-control" name="email" placeholder="Nhập lại mật khẩu"
+                                    style="border-radius: 5px;">
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <p style="padding: 15px 45px; margin-bottom: 80px;">Bằng cách gửi biểu mẫu này, bạn đồng ý với Điều
+                        khoản & Điều kiện và Chính sách bảo mật của chúng tôi.</p>
+                    <button class="btn btn_register">ĐĂNG KÝ</button>
+                </form>
             </div>
         </div>
     </div>

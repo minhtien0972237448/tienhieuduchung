@@ -980,6 +980,19 @@ option {
     height: 40px;
 }
 
+.btn_register {
+    border: none;
+    background: #fed700;
+    width: 150px;
+    color: #000000;
+    font-weight: bold;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
 .input-group-addon {
     color: #000000;
     font-weight: bold;
